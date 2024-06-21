@@ -1,0 +1,531 @@
+Opening log file:  /home/bmilinkovic/java.log.17843
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023b Update 7 (23.2.0.2515942) 64-bit (glnxa64)
+                              January 30, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Emergence Pipeline startup] Added path code directory: /data/gpfs/projects/punim1761/di_eeg/code
+[ssdi startup] Initialising ssdi
+[ssdi startup] Added path /data/gpfs/projects/punim1761/di_eeg/code/ssdi-1
+[ssdi startup] Added sub-path sims
+[ssdi startup] Added sub-path utils
+[ssdi startup] Added sub-path metrics
+[ssdi startup] Added sub-path visualisation
+[ssdi startup] Added sub-path networks
+[ssdi startup] Added sub-path experimental
+[ssdi startup] Added sub-path batch
+[ssdi startup] Added sub-path testing
+[MVGC2 startup] Initialising MVGC2 toolbox
+[MVGC2 startup] Setting user configuration options
+[MVGC2 startup] Internal paths set
+[gpmat startup] Initialising toolbox
+[gpmat startup] Setting user configuration options
+[gpmat startup] Screen size = 2560x600 pixels, DPI = 96
+[gpmat startup] Paths set
+[gpmat startup] Initialisation complete (you may re-run 'startup' at any time)
+[MVGC2 startup] Initialised "gpmat" Matlab Gnuplot API
+[gvmat startup] Initialising gvmat
+[gvmat startup] Added path /data/gpfs/projects/punim1761/di_eeg/code/gvmat
+[gvmat startup] Initialised (you may re-run `startup' at any time)
+[MVGC2 startup] Initialised "gvmat" Matlab GraphViz API
+[MVGC2 startup] 'mvfilter_mex' mex routine available for your platform
+[MVGC2 startup] 'findin' mex routine available for your platform
+[MVGC2 startup] Statistics Toolbox(TM) seems to be present.
+[MVGC2 startup] Signal Processing Toolbox(TM) seems to be present.
+[MVGC2 startup] Control System Toolbox(TM) seems to be present.
+[MVGC2 startup] Random number generator initialised randomly!
+[MVGC2 startup] All warnings enabled
+[MVGC2 startup]
+[MVGC2 startup] NOTE 1: PLEASE DO NOT ADD THE FULL MVGC HIERARCHY TO YOUR MATLAB SEARCH PATH!
+[MVGC2 startup]         Doing so is likely to cause problems. This script has already set up
+[MVGC2 startup]         MVGC2 paths correctly for your Matlab environment.
+[MVGC2 startup]
+[MVGC2 startup] NOTE 2: It is highly recommended that any single-precision floating-point data
+[MVGC2 startup]         be converted to double precision; some routines may be inaccurate or
+[MVGC2 startup]         numerically unstable for single-precision input.
+[MVGC2 startup]
+[MVGC2 startup] Initialisation complete (you may re-run 'startup' at any time)
+[ssdi startup] Initialised (you may re-run `startup' at any time)
+[Emergence Pipeline startup] Added path to State-Space Dynamical Indpendence toolbox: /data/gpfs/projects/punim1761/di_eeg/code/ssdi-1
+[Emergence Pipeline startup] Added path to Strong Causal Emergence toolbox: /data/gpfs/projects/punim1761/di_eeg/code/ReconcilingEmergences
+..Starting on subject H0010P_source_time_series_dspm.mat (1 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 4 *** selected
+	BIC = 2
+
+VAR info:
+    observables       = 46
+    model order       = 4
+    AR spectral norm  = 0.9238      stable (autocorr. decay = 455, freq. res. = 512)
+    residuals covariance matrix     symmetric, pos. def. (mii = 13.2842, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0010P.mat'. Saved..
+Elapsed time is 13.818169 seconds.
+..Starting on subject H0010W_source_time_series_dspm.mat (2 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 24 *** selected
+	BIC = 2
+
+VAR info:
+    observables       = 46
+    model order       = 24
+    AR spectral norm  = 0.9924      stable (autocorr. decay = 4716, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 16.4351, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0010W.mat'. Saved..
+Elapsed time is 434.025738 seconds.
+..Starting on subject H0048P_source_time_series_dspm.mat (3 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 21 *** selected
+	BIC = 6
+
+VAR info:
+    observables       = 46
+    model order       = 21
+    AR spectral norm  = 0.9922      stable (autocorr. decay = 4621, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 14.3064, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0048P.mat'. Saved..
+Elapsed time is 1060.536312 seconds.
+..Starting on subject H0048W_source_time_series_dspm.mat (4 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 30 *** selected
+	BIC = 4
+
+VAR info:
+    observables       = 46
+    model order       = 30
+    AR spectral norm  = 0.9981      stable (autocorr. decay = 18530, freq. res. = 32768)
+    residuals covariance matrix     symmetric, pos. def. (mii = 17.6210, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0048W.mat'. Saved..
+Elapsed time is 1953.709163 seconds.
+..Starting on subject H0081W_source_time_series_dspm.mat (5 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 30 *** selected
+	BIC = 4
+
+VAR info:
+    observables       = 46
+    model order       = 30
+    AR spectral norm  = 0.9970      stable (autocorr. decay = 11845, freq. res. = 16384)
+    residuals covariance matrix     symmetric, pos. def. (mii = 14.0875, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0081W.mat'. Saved..
+Elapsed time is 612.337429 seconds.
+..Starting on subject H0081X_source_time_series_dspm.mat (6 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 10 *** selected
+	BIC = 4
+
+VAR info:
+    observables       = 46
+    model order       = 10
+    AR spectral norm  = 0.9757      stable (autocorr. decay = 1464, freq. res. = 2048)
+    residuals covariance matrix     symmetric, pos. def. (mii = 13.3313, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0081X.mat'. Saved..
+Elapsed time is 120.255830 seconds.
+..Starting on subject H0090W_source_time_series_dspm.mat (7 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 22 *** selected
+	BIC = 3
+
+VAR info:
+    observables       = 46
+    model order       = 22
+    AR spectral norm  = 0.9936      stable (autocorr. decay = 5646, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 16.3662, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0090W.mat'. Saved..
+Elapsed time is 438.662815 seconds.
+..Starting on subject H0090X_source_time_series_dspm.mat (8 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 30 *** selected
+	BIC = 5
+
+VAR info:
+    observables       = 46
+    model order       = 30
+    AR spectral norm  = 0.9803      stable (autocorr. decay = 1815, freq. res. = 2048)
+    residuals covariance matrix     symmetric, pos. def. (mii = 12.5637, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0090X.mat'. Saved..
+Elapsed time is 759.626546 seconds.
+..Starting on subject H0109K_source_time_series_dspm.mat (9 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 11 *** selected
+	BIC = 5
+
+VAR info:
+    observables       = 46
+    model order       = 11
+    AR spectral norm  = 0.9887      stable (autocorr. decay = 3185, freq. res. = 4096)
+    residuals covariance matrix     symmetric, pos. def. (mii = 17.3401, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0109K.mat'. Saved..
+Elapsed time is 140.376013 seconds.
+..Starting on subject H0109W_source_time_series_dspm.mat (10 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 30 *** selected
+	BIC = 3
+
+VAR info:
+    observables       = 46
+    model order       = 30
+    AR spectral norm  = 0.9977      stable (autocorr. decay = 15566, freq. res. = 16384)
+    residuals covariance matrix     symmetric, pos. def. (mii = 19.7218, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0109W.mat'. Saved..
+Elapsed time is 634.180718 seconds.
+..Starting on subject H0294K_source_time_series_dspm.mat (11 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 20 *** selected
+	BIC = 5
+
+VAR info:
+    observables       = 46
+    model order       = 20
+    AR spectral norm  = 0.9930      stable (autocorr. decay = 5109, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 14.2848, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0294K.mat'. Saved..
+Elapsed time is 361.117009 seconds.
+..Starting on subject H0294W_source_time_series_dspm.mat (12 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 30 *** selected
+	BIC = 5
+
+VAR info:
+    observables       = 46
+    model order       = 30
+    AR spectral norm  = 0.9961      stable (autocorr. decay = 9288, freq. res. = 16384)
+    residuals covariance matrix     symmetric, pos. def. (mii = 17.0607, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0294W.mat'. Saved..
+Elapsed time is 647.514045 seconds.
+..Starting on subject H0338K_source_time_series_dspm.mat (13 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 24 *** selected
+	BIC = 5
+
+VAR info:
+    observables       = 46
+    model order       = 24
+    AR spectral norm  = 0.9939      stable (autocorr. decay = 5920, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 16.6004, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0338K.mat'. Saved..
+Elapsed time is 428.985993 seconds.
+..Starting on subject H0338W_source_time_series_dspm.mat (14 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 22 *** selected
+	BIC = 2
+
+VAR info:
+    observables       = 46
+    model order       = 22
+    AR spectral norm  = 0.9921      stable (autocorr. decay = 4531, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 15.1170, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0338W.mat'. Saved..
+Elapsed time is 837.079926 seconds.
+..Starting on subject H0526S_source_time_series_dspm.mat (15 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 30 *** selected
+	BIC = 30
+
+VAR info:
+    observables       = 46
+    model order       = 30
+    AR spectral norm  = 0.9965      stable (autocorr. decay = 10186, freq. res. = 16384)
+    residuals covariance matrix     symmetric, pos. def. (mii = 15.7579, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0526S.mat'. Saved..
+Elapsed time is 4380.456123 seconds.
+..Starting on subject H0534K_source_time_series_dspm.mat (16 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 12 *** selected
+	BIC = 4
+
+VAR info:
+    observables       = 46
+    model order       = 12
+    AR spectral norm  = 0.9899      stable (autocorr. decay = 3568, freq. res. = 4096)
+    residuals covariance matrix     symmetric, pos. def. (mii = 14.8852, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0534K.mat'. Saved..
+Elapsed time is 147.297668 seconds.
+..Starting on subject H0534W_source_time_series_dspm.mat (17 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 7 *** selected
+	BIC = 2
+
+VAR info:
+    observables       = 46
+    model order       = 7
+    AR spectral norm  = 0.9333      stable (autocorr. decay = 523, freq. res. = 1024)
+    residuals covariance matrix     symmetric, pos. def. (mii = 15.0207, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0534W.mat'. Saved..
+Elapsed time is 98.605836 seconds.
+..Starting on subject H0603P_source_time_series_dspm.mat (18 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 20 *** selected
+	BIC = 5
+
+VAR info:
+    observables       = 46
+    model order       = 20
+    AR spectral norm  = 0.9933      stable (autocorr. decay = 5359, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 15.0440, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0603P.mat'. Saved..
+Elapsed time is 234.556681 seconds.
+..Starting on subject H0603W_source_time_series_dspm.mat (19 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 23 *** selected
+	BIC = 3
+
+VAR info:
+    observables       = 46
+    model order       = 23
+    AR spectral norm  = 0.9921      stable (autocorr. decay = 4536, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 14.5917, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0603W.mat'. Saved..
+Elapsed time is 414.312922 seconds.
+..Starting on subject H0631W_source_time_series_dspm.mat (20 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 15 *** selected
+	BIC = 4
+
+VAR info:
+    observables       = 46
+    model order       = 15
+    AR spectral norm  = 0.9879      stable (autocorr. decay = 2950, freq. res. = 4096)
+    residuals covariance matrix     symmetric, pos. def. (mii = 18.0835, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0631W.mat'. Saved..
+Elapsed time is 201.215902 seconds.
+..Starting on subject H0631X_source_time_series_dspm.mat (21 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 12 *** selected
+	BIC = 6
+
+VAR info:
+    observables       = 46
+    model order       = 12
+    AR spectral norm  = 0.9786      stable (autocorr. decay = 1666, freq. res. = 2048)
+    residuals covariance matrix     symmetric, pos. def. (mii = 11.2828, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0631X.mat'. Saved..
+Elapsed time is 159.625882 seconds.
+..Starting on subject H0668P_source_time_series_dspm.mat (22 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 9 *** selected
+	BIC = 3
+
+VAR info:
+    observables       = 46
+    model order       = 9
+    AR spectral norm  = 0.9596      stable (autocorr. decay = 875, freq. res. = 1024)
+    residuals covariance matrix     symmetric, pos. def. (mii = 12.0696, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0668P.mat'. Saved..
+Elapsed time is 45.840584 seconds.
+..Starting on subject H0668W_source_time_series_dspm.mat (23 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 21 *** selected
+	BIC = 3
+
+VAR info:
+    observables       = 46
+    model order       = 21
+    AR spectral norm  = 0.9967      stable (autocorr. decay = 10761, freq. res. = 16384)
+    residuals covariance matrix     symmetric, pos. def. (mii = 13.0410, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0668W.mat'. Saved..
+Elapsed time is 389.388833 seconds.
+..Starting on subject H0707S_source_time_series_dspm.mat (24 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 27 *** selected
+	BIC = 7
+
+VAR info:
+    observables       = 46
+    model order       = 27
+    AR spectral norm  = 0.9889      stable (autocorr. decay = 3238, freq. res. = 4096)
+    residuals covariance matrix     symmetric, pos. def. (mii = 11.3888, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0707S.mat'. Saved..
+Elapsed time is 3231.388156 seconds.
+..Starting on subject H0730S_source_time_series_dspm.mat (25 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 17 *** selected
+	BIC = 6
+
+VAR info:
+    observables       = 46
+    model order       = 17
+    AR spectral norm  = 0.9950      stable (autocorr. decay = 7201, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 12.0762, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0730S.mat'. Saved..
+Elapsed time is 1636.136848 seconds.
+..Starting on subject H0746P_source_time_series_dspm.mat (26 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 23 *** selected
+	BIC = 5
+
+VAR info:
+    observables       = 46
+    model order       = 23
+    AR spectral norm  = 0.9901      stable (autocorr. decay = 3631, freq. res. = 4096)
+    residuals covariance matrix     symmetric, pos. def. (mii = 13.3962, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0746P.mat'. Saved..
+Elapsed time is 1580.242992 seconds.
+..Starting on subject H0746W_source_time_series_dspm.mat (27 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 23 *** selected
+	BIC = 2
+
+VAR info:
+    observables       = 46
+    model order       = 23
+    AR spectral norm  = 0.9963      stable (autocorr. decay = 9635, freq. res. = 16384)
+    residuals covariance matrix     symmetric, pos. def. (mii = 15.6931, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0746W.mat'. Saved..
+Elapsed time is 153.342526 seconds.
+..Starting on subject H0777W_source_time_series_dspm.mat (28 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 24 *** selected
+	BIC = 4
+
+VAR info:
+    observables       = 46
+    model order       = 24
+    AR spectral norm  = 0.9909      stable (autocorr. decay = 3939, freq. res. = 4096)
+    residuals covariance matrix     symmetric, pos. def. (mii = 14.8559, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0777W.mat'. Saved..
+Elapsed time is 380.551676 seconds.
+..Starting on subject H0777X_source_time_series_dspm.mat (29 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 10 *** selected
+	BIC = 3
+
+VAR info:
+    observables       = 46
+    model order       = 10
+    AR spectral norm  = 0.9649      stable (autocorr. decay = 1008, freq. res. = 1024)
+    residuals covariance matrix     symmetric, pos. def. (mii = 10.2906, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0777X.mat'. Saved..
+Elapsed time is 96.880262 seconds.
+..Starting on subject H0781S_source_time_series_dspm.mat (30 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 30 *** selected
+	BIC = 30
+
+VAR info:
+    observables       = 46
+    model order       = 30
+    AR spectral norm  = 0.9942      stable (autocorr. decay = 6194, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 14.6031, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0781S.mat'. Saved..
+Elapsed time is 3696.320797 seconds.
+..Starting on subject H0826K_source_time_series_dspm.mat (31 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 28 *** selected
+	BIC = 6
+
+VAR info:
+    observables       = 46
+    model order       = 28
+    AR spectral norm  = 0.9971      stable (autocorr. decay = 12297, freq. res. = 16384)
+    residuals covariance matrix     symmetric, pos. def. (mii = 20.4444, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0826K.mat'. Saved..
+Elapsed time is 503.478400 seconds.
+..Starting on subject H0826W_source_time_series_dspm.mat (32 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 9 *** selected
+	BIC = 2
+
+VAR info:
+    observables       = 46
+    model order       = 9
+    AR spectral norm  = 0.9790      stable (autocorr. decay = 1700, freq. res. = 2048)
+    residuals covariance matrix     symmetric, pos. def. (mii = 16.3707, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0826W.mat'. Saved..
+Elapsed time is 34.454080 seconds.
+..Starting on subject H0905W_source_time_series_dspm.mat (33 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 30 *** selected
+	BIC = 2
+
+VAR info:
+    observables       = 46
+    model order       = 30
+    AR spectral norm  = 0.9956      stable (autocorr. decay = 8111, freq. res. = 8192)
+    residuals covariance matrix     symmetric, pos. def. (mii = 18.5658, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0905W.mat'. Saved..
+Elapsed time is 557.471975 seconds.
+..Starting on subject H0905X_source_time_series_dspm.mat (34 / 34) 
+
+VAR model order selection, max = 30:
+	AIC = 7 *** selected
+	BIC = 3
+
+VAR info:
+    observables       = 46
+    model order       = 7
+    AR spectral norm  = 0.9139      stable (autocorr. decay = 401, freq. res. = 512)
+    residuals covariance matrix     symmetric, pos. def. (mii = 26.2598, uniform = 40.3041)
+
+Saving PWCGC model '/data/gpfs/projects/punim1761/di_eeg/data/pwcgc/dspm/dspm_pwcgc_H0905X.mat'. Saved..
+Elapsed time is 61.091427 seconds.

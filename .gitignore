@@ -1,0 +1,20 @@
+# ignore results folders
+
+results/
+
+# ignore data folders
+
+data/
+
+# ignore deprecated folder
+
+deprecated/
+
+# ignore .idea
+
+.idea/
+
+# ignore MNE data
+
+code/mne_data/MNE/
+
